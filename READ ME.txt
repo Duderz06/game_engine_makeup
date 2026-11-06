@@ -1,0 +1,34 @@
+# INFR 3110 Make Up Assignment
+---
+### Name : Zach Cooke
+### Student Number : 100982545
+---
+# Object Oriented Programming
+---
+### Description
+<!-- Briefly describe the classes, their relationships, and how object-oriented
+programming principles are demonstrated in your implementation. -->
+i did inheritance by having a movement parent class that holds all the rigidbody movement stuff, and made 2 different classes that inherit from it. player movement, which allows the player to control it, and random mover, which randomly selects movement
+
+## UML Diagram
+<!-- Attach your UML diagram here -->
+---
+# Singleton Pattern
+---
+### Purpose
+<!-- Explain why the Singleton pattern is appropriate for this particular system.
+-->
+### Implementation
+<!--Describe how the Singleton pattern is implemented in your project. -->
+---
+# Factory Pattern
+---
+### Purpose
+<!-- Explain why the Factory pattern is appropriate for this particular system. -->
+### Implementation
+<!-- Describe how the Factory pattern is implemented in your project. -->
+---
+# References
+---
+<!-- Identify sources used to create any gameplay logic or programming pattern
+implementations. -->
