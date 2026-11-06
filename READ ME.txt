@@ -9,6 +9,7 @@
 <!-- Briefly describe the classes, their relationships, and how object-oriented
 programming principles are demonstrated in your implementation. -->
 i did inheritance by having a movement parent class that holds all the rigidbody movement stuff, and made 2 different classes that inherit from it. player movement, which allows the player to control it, and random mover, which randomly selects movement
+i did polymorphism with the destroy thing by making a kill method which destroys whatever gameobject is passed it, otherwise it destroys itself
 
 ## UML Diagram
 <!-- Attach your UML diagram here -->
@@ -30,7 +31,6 @@ i made it so it goes between scenes and there is only 1 of them. i added a thing
 <!-- Explain why the Factory pattern is appropriate for this particular system. -->
 
 i made it spawn a random mover prefab every 3 seconds
-i did plan on them killing the player on contact but no time
 
 ### Implementation
 <!-- Describe how the Factory pattern is implemented in your project. -->
@@ -47,4 +47,6 @@ implementations. -->
 
 the original enemy factory is taken from my game i am making
 same with the spawner
+
+the singleton base was taken from an in class assignment
 
