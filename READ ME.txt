@@ -17,18 +17,34 @@ i did inheritance by having a movement parent class that holds all the rigidbody
 ---
 ### Purpose
 <!-- Explain why the Singleton pattern is appropriate for this particular system.
+
+the singleton keeps track of a score variable between scenes so they play could go to other levels
 -->
 ### Implementation
 <!--Describe how the Singleton pattern is implemented in your project. -->
+i made it so it goes between scenes and there is only 1 of them. i added a thing where pressing r resets the scene for easier testing
 ---
 # Factory Pattern
 ---
 ### Purpose
 <!-- Explain why the Factory pattern is appropriate for this particular system. -->
+
+i made it spawn a random mover prefab every 3 seconds
+i did plan on them killing the player on contact but no time
+
 ### Implementation
 <!-- Describe how the Factory pattern is implemented in your project. -->
+i made a factory base script that holds all the prefabs and all the instantiating stuff
+i have an enemy spawner script that is given the spawnpoint and a number and makes the correct enemy and spawnspot based on that
+i made a script that tells the spawner to make an enemy every 3 seconds
+
+
 ---
 # References
 ---
 <!-- Identify sources used to create any gameplay logic or programming pattern
 implementations. -->
+
+the original enemy factory is taken from my game i am making
+same with the spawner
+

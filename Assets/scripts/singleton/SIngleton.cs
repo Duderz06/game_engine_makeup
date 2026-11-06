@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class SIngleton : MonoBehaviour
@@ -5,6 +6,8 @@ public class SIngleton : MonoBehaviour
 
 
     public static SIngleton Instance { get; private set; }
+
+    public float Score = 0;
 
     public virtual void Awake()
     {
@@ -25,6 +28,18 @@ public class SIngleton : MonoBehaviour
 
         Debug.Log("it work yay");
 
+    }
+
+    public IEnumerator StartScoreing() {
+
+
+        while (true) {
+
+            Score++;
+            yield return null;
+        
+        }
+    
     }
 
 }
